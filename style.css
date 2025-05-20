@@ -1,0 +1,32 @@
+.app-container
+{
+  width:480px;
+  height:480px;
+}
+.calculator
+{
+  display:grid;
+  grid-template-columns:repeat(4,50px);
+}
+.display
+{
+  grid-column-start:1;
+  grid-column-end:5;
+  height:40px;
+  border: 2px solid black;
+  padding-top:5px;
+  padding-right:10px;
+  text-align:right;
+  font-size:30px;
+}
+button
+{
+  height:50px;
+  width:50px;
+  background-color:white;
+  border:1px solid black;
+}  
+button.operator
+{
+  background-color:maroon;
+}
